@@ -2,18 +2,18 @@
 
 面向 Obsidian 和 Molio 用户的 Markdown 知识资源索引：从人物关系、概念关联到学科知识体系，让阅读积累可以被检索、连接，并用于本地 AI 知识库。
 
-你可以从这里寻找 **Obsidian 双链笔记、双链图谱、知识图谱、思维图谱与思维导图学习素材**。资源包以 Markdown 为主；具体文件、内部链接、图片和预览以各资源详情页及实际交付为准。本仓库提供导航和使用说明，不包含完整资源包，也不代表每项资源都附带 XMind 或 Obsidian Canvas 文件。
+你可以从这里寻找 **Obsidian 双链笔记、双链图谱、知识图谱与本地 AI 知识库资源**。资源包以 Markdown 为主；具体文件、内部链接、图片和预览以各资源详情页及实际交付为准。本仓库提供导航和使用说明，不包含完整资源包。
 
 [浏览官网资源库](https://molio.cn/resources.html) · [了解 Molio](https://molio.cn/) · [Molio 软件源码](https://github.com/zhuzhaoyun/Molio)
 
-Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workflows, linked notes, knowledge graphs, mind-map planning, and AI-assisted reading. See each resource page for contents, availability, and usage terms.
+Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workflows, linked notes, knowledge graphs, concept relationships, and AI-assisted reading. See each resource page for contents, availability, and usage terms.
 
 ## 从哪里开始
 
 - 想读经典：从《周易》或老庄思想资源开始，了解概念与条目的组织方式。
 - 想读人物关系：查看历史与文学中的《红楼梦》《三国演义》《史记》等资源。
 - 想构建 AI 知识库：查看知识工程、图纸数据提取及下方的导入步骤。
-- 想做思维导图：先阅读「双链图谱与思维导图有什么区别」，确定需要关系网络还是层级提纲。
+- 想探索知识关联：通过人物、事件、概念条目及内部链接，查看主题之间的关系。
 
 ## 资源目录
 
@@ -64,19 +64,17 @@ Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workfl
 
 医学资源用于文献学习与资料组织，不替代临床判断；考试、招生与专业规范等时效性信息，请同时核对当年官方文件。
 
-## Obsidian 双链图谱、知识图谱与思维导图有什么区别？
+## 如何理解知识图谱与 Obsidian 双链笔记
 
 | 概念 | 主要用途 | 使用这些资源时如何理解 |
 | --- | --- | --- |
 | 双链笔记 / Backlinks | 沿笔记间的引用查找上下文 | Obsidian 支持内部链接并显示反向链接；资源包中是否已有完整链接需查看实际文件。 |
 | 双链图谱 / Graph view | 可视化笔记间的连接网络 | 节点代表笔记，连线代表内部链接；导入散文件不会自动得到可靠的语义关系。 |
 | 知识图谱 / Knowledge graph | 组织人物、概念、事件及其关系 | 本目录使用这一名称描述资源的组织方式，不意味着每个资源都提供 RDF、图数据库或机器可读的关系类型。 |
-| 思维图谱 / 思维导图 / Mind map | 围绕主题组织层级与分支 | 可以依据目录和概念条目自行整理提纲；它与双链网络不同，不默认附送导图文件。 |
-| Obsidian Canvas | 在白板上排列笔记、附件与连线 | 可在导入后自行创建 Canvas；是否提供现成 `.canvas` 文件须以资源包说明为准。 |
 
-例如，读历史时，可以用思维导图整理朝代与章节，用双链笔记追踪某个人物在不同事件中的出现，再沿原文出处核对判断。图形提供导航，论据仍需回到文献。
+例如，读历史时，可以从人物条目进入相关事件，沿内部链接追踪人物、政权与制度的联系，再回到原文出处核对判断。知识图谱组织这些关联，双链笔记提供浏览路径。
 
-参考 Obsidian 官方说明：[内部链接](https://help.obsidian.md/links)、[关系图谱](https://help.obsidian.md/plugins/graph)、[Canvas](https://help.obsidian.md/plugins/canvas)。
+参考 Obsidian 官方说明：[内部链接](https://help.obsidian.md/links)、[关系图谱](https://help.obsidian.md/plugins/graph)。
 
 ## 如何导入 Obsidian 或 Molio
 
@@ -84,7 +82,7 @@ Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workfl
 2. 按详情页指引获取资源包，解压，并保留 Markdown、图片及附件之间的相对目录结构。
 3. **Obsidian**：将解压后存放笔记的文件夹作为仓库打开。检查图片和内部链接，再使用反向链接与关系图谱浏览。已有仓库建议先备份，再合并文件。
 4. **Molio**：在知识库管理界面选择打开本地仓库，定位到解压后的文件夹。软件介绍与下载见 [Molio 官网](https://molio.cn/)。
-5. 先抽查一个条目、一张图片和一个引用，确认显示正常，再开始批注、提问或整理自己的思维导图。
+5. 先抽查一个条目、一张图片和一个引用，确认显示正常，再开始批注、提问或补充自己的知识关联。
 
 ## 如何用于 AI 知识库和 LLM Wiki
 
@@ -106,9 +104,9 @@ Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workfl
 
 本目录收录的资源详情页标注 Markdown 格式及 Molio / Obsidian 兼容性。具体插件、图谱展示与 AI 功能由使用的软件决定。
 
-**是不是导入之后就自动生成思维导图？**
+**知识图谱在 Obsidian 中如何查看？**
 
-不是。思维导图通常需要自行整理或由适配的工具生成。Obsidian 关系图显示已有内部链接，Canvas 则用于手动组织空间布局；这里不承诺所有资源带现成导图。
+将资源作为仓库打开后，可以阅读条目并沿内部链接跳转，再使用关系图谱查看笔记之间的连接。图谱展示取决于资源内已有的链接结构和软件设置；具体内容以资源详情与实际文件为准。
 
 **资源可以转载、商用或再分发吗？**
 
