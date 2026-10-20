@@ -1,6 +1,6 @@
-# Molio 墨流 · Obsidian 双链笔记与知识图谱资源
+# Obsidian 知识库与知识图谱资源索引 · Molio 墨流
 
-面向 Obsidian 和 Molio 用户的 Markdown 知识资源索引：从人物关系、概念关联到学科知识体系，让阅读积累可以被检索、连接，并用于本地 AI 知识库。
+收录可用于 Obsidian 与 Molio 的 Markdown 知识库资源，涵盖红楼梦与三国人物关系、史记与资治通鉴阅读、哲学概念、高中数学知识点、知识图谱与本体建模等主题。通过人物、事件和概念之间的关联，支持资料检索、双链笔记阅读与 AI 辅助学习。
 
 你可以从这里寻找 **Obsidian 双链笔记、双链图谱、知识图谱与本地 AI 知识库资源**。资源包以 Markdown 为主；具体文件、内部链接、图片和预览以各资源详情页及实际交付为准。本仓库提供导航和使用说明，不包含完整资源包。
 
@@ -8,61 +8,223 @@
 
 Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workflows, linked notes, knowledge graphs, concept relationships, and AI-assisted reading. See each resource page for contents, availability, and usage terms.
 
-## 从哪里开始
+## 按你的问题找资源
 
-- 想读经典：从《周易》或老庄思想资源开始，了解概念与条目的组织方式。
-- 想读人物关系：查看历史与文学中的《红楼梦》《三国演义》《史记》等资源。
-- 想构建 AI 知识库：查看知识工程、图纸数据提取及下方的导入步骤。
-- 想探索知识关联：通过人物、事件、概念条目及内部链接，查看主题之间的关系。
+| 你想解决的问题 | 从哪里开始 |
+| --- | --- |
+| 想找 Obsidian 中文知识库，如何导入已有 Markdown 资料？ | [导入 Obsidian 或 Molio](#import-guide) |
+| 红楼梦、三国的人物关系太复杂，怎么关联阅读？ | [历史与文学](#history-literature) |
+| 中西哲学、老庄和周易的概念怎么梳理？ | [哲学与经典](#philosophy) |
+| 想学习知识图谱、本体建模，或研究 CAD、PCB 工程资料？ | [技术与工程](#engineering) |
+| 高中数学、刑法考点和高校专业资料怎样系统整理？ | [学习与考试](#study) |
+| 中医经典、妇产超声文献怎样按概念关联？ | [医学文献学习](#medical) |
 
 ## 资源目录
 
 目录核对日期：**2026-10-20**。共 **18** 项。内容版本、获取方式和使用授权以官网详情页为准。
 
+<a id="history-literature"></a>
+
 ### 历史与文学
 
 | 资源与详情 | 可用于什么 |
 | --- | --- |
-| [《明史》帝国兴衰知识图谱：人物、制度与朝局演变](https://molio.cn/resource/01M111M5CSYX96FTKGC3V1QC2T.html) | 梳理帝系、人物、制度与朝局之间的关系。 |
-| [中国古典诗文集全景图谱](https://molio.cn/resource/01M3VY2DZXW6KN1X5AFP7PXJ05.html) | 按时代阅读诗文别集与总集，建立作者和作品索引。 |
-| [三国人物关系图：120 回本的三国演义知识图谱](https://molio.cn/resource/01M35RVX9S3TQK6ZE0QT9J6NG4.html) | 围绕人物、势力、事件与别名理解叙事关系。 |
-| [史记知识库：130 篇全本的人物、制度与思想图谱](https://molio.cn/resource/01M10WWK7WNMM61QNJJJXHNWS2.html) | 关联人物、制度与思想，按篇目回到原文查证。 |
-| [《金瓶梅》人物·商业·社会运行全景知识图谱](https://molio.cn/resource/01M2GAA83Q83CMQZPN40T9GQZ8.html) | 从人物关系连接商业活动与社会生活。 |
-| [《红楼梦》人物与意象关系图谱：120回原著知识图鉴](https://molio.cn/resource/01M110NNMKNWXKBXT01HVJ06ZW.html) | 整理人物、家族与意象，辅助原著阅读。 |
-| [《资治通鉴》千年兴亡：人物、事件与制度知识图谱](https://molio.cn/resource/01M10RZP9118BA6YRBZ1D4FKM2.html) | 围绕人物、事件与制度组织历史线索。 |
+| [明史人物关系与明代官制知识图谱](https://molio.cn/resource/01M111M5CSYX96FTKGC3V1QC2T.html) | 梳理帝系、人物、制度与朝局之间的关系。 |
+| [中国古典诗文集与文学流派知识图谱](https://molio.cn/resource/01M3VY2DZXW6KN1X5AFP7PXJ05.html) | 按时代阅读诗文别集与总集，建立作者和作品索引。 |
+| [三国演义人物关系与魏蜀吴势力知识图谱](https://molio.cn/resource/01M35RVX9S3TQK6ZE0QT9J6NG4.html) | 围绕人物、势力、事件与别名理解叙事关系。 |
+| [史记130篇阅读与人物关系知识图谱](https://molio.cn/resource/01M10WWK7WNMM61QNJJJXHNWS2.html) | 关联人物、制度与思想，按篇目回到原文查证。 |
+| [金瓶梅人物关系与商业社会知识图谱](https://molio.cn/resource/01M2GAA83Q83CMQZPN40T9GQZ8.html) | 从人物关系连接商业活动与社会生活。 |
+| [红楼梦人物关系与章节导读知识图谱](https://molio.cn/resource/01M110NNMKNWXKBXT01HVJ06ZW.html) | 整理人物、家族与意象，辅助原著阅读。 |
+| [资治通鉴人物、历史事件与制度知识图谱](https://molio.cn/resource/01M10RZP9118BA6YRBZ1D4FKM2.html) | 围绕人物、事件与制度组织历史线索。 |
+
+<a id="philosophy"></a>
 
 ### 哲学与经典
 
 | 资源与详情 | 可用于什么 |
 | --- | --- |
-| [中西哲学思想图谱：给你本地 AI 的哲学知识底座](https://molio.cn/resource/01M10MC4S9ZH54WVFCXJWZ2JWS.html) | 按概念、思想家与流派组织哲学学习。 |
-| [《周易》六十四卦全解｜卦变·象数·义理知识图谱](https://molio.cn/resource/01M12YMV1144F4RZMX1HBK8GQ0.html) | 围绕六十四卦、卦变与象数义理建立阅读索引。 |
-| [老庄思想图谱：《道德经》与《庄子》核心概念体系](https://molio.cn/resource/01M114523M19P4J7GZMZ7E6188.html) | 对照道德经与庄子的核心概念及其关联。 |
+| [中西哲学家、核心概念与思想对比知识图谱](https://molio.cn/resource/01M10MC4S9ZH54WVFCXJWZ2JWS.html) | 按概念、思想家与流派组织哲学学习。 |
+| [周易六十四卦与卦变关系知识图谱](https://molio.cn/resource/01M12YMV1144F4RZMX1HBK8GQ0.html) | 围绕六十四卦、卦变与象数义理建立阅读索引。 |
+| [道德经与庄子核心概念知识图谱](https://molio.cn/resource/01M114523M19P4J7GZMZ7E6188.html) | 对照道德经与庄子的核心概念及其关联。 |
+
+<a id="engineering"></a>
 
 ### 技术与工程
 
 | 资源与详情 | 可用于什么 |
 | --- | --- |
-| [PCB 柔性制造全景图谱：从在线下单到黑灯工厂](https://molio.cn/resource/01M3VX66XMG5NHQ5HP9TK0Q2DC.html) | 梳理下单、生产、MES、物流等制造环节。 |
-| [图纸数据提取：工程图纸数字化与 AI 识别技术全景](https://molio.cn/resource/01M35QEB3RMK46SGCQ6WSZ3GZR.html) | 了解工程图纸解析、识别与业务数据组织。 |
-| [知识工程全景图谱-RAG-本体-Agent工程](https://molio.cn/resource/01M13QT669Q6E94PWACEH00YJF.html) | 梳理本体、知识表示、RAG 与 Agent 工程。 |
+| [PCB制造流程与MES柔性制造知识图谱](https://molio.cn/resource/01M3VX66XMG5NHQ5HP9TK0Q2DC.html) | 梳理下单、生产、MES、物流等制造环节。 |
+| [工程图纸数据提取：DWG、DXF解析与AI识别知识库](https://molio.cn/resource/01M35QEB3RMK46SGCQ6WSZ3GZR.html) | 了解工程图纸解析、识别与业务数据组织。 |
+| [知识图谱与本体建模：RAG、GraphRAG和AI Agent知识库](https://molio.cn/resource/01M13QT669Q6E94PWACEH00YJF.html) | 梳理本体、知识表示、RAG 与 Agent 工程。 |
+
+<a id="study"></a>
 
 ### 学习与考试
 
 | 资源与详情 | 可用于什么 |
 | --- | --- |
-| [人教版高中数学五册知识图谱｜200个核心概念·AI知识库](https://molio.cn/resource/01M4PZPNGWR1YZ1W9GGVTJG82N.html) | 连接数学概念、前置依赖与知识对比。 |
-| [法考刑法·131考点与主观题观点训练知识图谱](https://molio.cn/resource/01M2QAYVBMH2YCF68BEA393BY4.html) | 按刑法考点组织复习与观点训练。 |
-| [广东高考志愿填报·高校专业全景知识库](https://molio.cn/resource/01M2DFJ9E66FARK5SEBMPT92K0.html) | 整理高校与专业资料，辅助信息检索。 |
+| [高中数学知识点整理：人教A版五册知识图谱](https://molio.cn/resource/01M4PZPNGWR1YZ1W9GGVTJG82N.html) | 连接数学概念、前置依赖与知识对比。 |
+| [法考刑法考点与主观题观点训练知识图谱](https://molio.cn/resource/01M2QAYVBMH2YCF68BEA393BY4.html) | 按刑法考点组织复习与观点训练。 |
+| [广东高考志愿填报：高校与专业对比知识库](https://molio.cn/resource/01M2DFJ9E66FARK5SEBMPT92K0.html) | 整理高校与专业资料，辅助信息检索。 |
+
+<a id="medical"></a>
 
 ### 医学文献学习
 
 | 资源与详情 | 可用于什么 |
 | --- | --- |
-| [中医经典辨证体系：伤寒论六经·金匮病证·温病三焦知识图谱](https://molio.cn/resource/01M112AA9MV91T3FJD5Z2GSPY8.html) | 梳理经典文献中的辨证体系和概念。 |
-| [妇产超声知识图谱：胎儿畸形诊断、征象与鉴别体系](https://molio.cn/resource/01M1152PE8YE365S9ZXDMNYCW6.html) | 组织超声文献中的征象、鉴别与检查规范。 |
+| [伤寒论、金匮要略与温病辨证知识图谱](https://molio.cn/resource/01M112AA9MV91T3FJD5Z2GSPY8.html) | 梳理经典文献中的辨证体系和概念。 |
+| [妇产超声学习：胎儿异常征象与鉴别知识图谱](https://molio.cn/resource/01M1152PE8YE365S9ZXDMNYCW6.html) | 组织超声文献中的征象、鉴别与检查规范。 |
 
 医学资源用于文献学习与资料组织，不替代临床判断；考试、招生与专业规范等时效性信息，请同时核对当年官方文件。
+
+## 每套知识图谱包含什么、适合谁
+
+以下简介依据各资源官网说明整理；内容数量与范围以详情页标注的版本为准。资源采用 Markdown 形式，具体内部链接和附件以实际文件为准。
+
+### 红楼梦人物关系与章节导读知识图谱
+
+**红楼梦人物和家族关系怎么梳理？**
+
+围绕120回原著，整理60位核心人物、回目速览，以及大观园、太虚幻境等11个概念体系。适合原著阅读、人物关系分析与读书笔记整理。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M110NNMKNWXKBXT01HVJ06ZW.html)
+
+### 三国演义人物关系与魏蜀吴势力知识图谱
+
+**三国人物别名、所属势力和事件关系怎么查？**
+
+以120回《三国演义》为基础，整理人物、组织与势力条目，关联事件、谋略和别名。适合沿人物关系阅读小说、对照事件与战略；内容范围是小说，不等同于正史《三国志》。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M35RVX9S3TQK6ZE0QT9J6NG4.html)
+
+### 资治通鉴人物、历史事件与制度知识图谱
+
+**读资治通鉴，怎样串起人物、政权与历史事件？**
+
+整理626个政权与人物、44个事件与制度概念及23组历史对比。适合历史阅读、专题学习与写作查证，按关联线索组织分散史料。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M10RZP9118BA6YRBZ1D4FKM2.html)
+
+### 史记130篇阅读与人物关系知识图谱
+
+**史记同一人物散在不同篇目，怎样关联阅读？**
+
+以《史记》130篇为基础，组织人物、方国、地名与制度思想条目，包含异称归并及带行号的原文引用。适合跨篇阅读、人物研究与史料查证。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M10WWK7WNMM61QNJJJXHNWS2.html)
+
+### 明史人物关系与明代官制知识图谱
+
+**明代人物、官制和朝局变化如何一起理解？**
+
+整理311个人物条目、18个官制与重要事件概念，以及14组朝局对比。适合研读《明史》、梳理帝系与官制、研究内阁和宦官等政治关系。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M111M5CSYX96FTKGC3V1QC2T.html)
+
+### 金瓶梅人物关系与商业社会知识图谱
+
+**金瓶梅的人物关系如何连接到商业与社会生活？**
+
+围绕100回原著和104位人物，关联商业活动、金钱往来、财产消费与重要情节。适合文学阅读、人物分析及社会生活专题研究。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M2GAA83Q83CMQZPN40T9GQZ8.html)
+
+### 中国古典诗文集与文学流派知识图谱
+
+**古典诗文如何按作者、时代和流派查找？**
+
+汇集168部诗文别集与总集，并配有作者条目、源文件摘要、流派概念及专题对比。适合古典文学阅读、诗文资料检索和作家流派研究。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M3VY2DZXW6KN1X5AFP7PXJ05.html)
+
+### 中西哲学家、核心概念与思想对比知识图谱
+
+**哲学入门怎样梳理哲学家、概念与思想分歧？**
+
+整理6部经典摘要、100位中西哲学家、135个核心概念与15组思想对比。适合哲学学习、概念查阅与中西思想比较。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M10MC4S9ZH54WVFCXJWZ2JWS.html)
+
+### 道德经与庄子核心概念知识图谱
+
+**老子与庄子的道、无为和逍遥如何关联理解？**
+
+围绕《道德经》《庄子》，梳理道、德、无为、逍遥等概念与经典文本的联系，涵盖帛书版《老子》及王弼注本相关内容。适合道家哲学学习与经典对读。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M114523M19P4J7GZMZ7E6188.html)
+
+### 周易六十四卦与卦变关系知识图谱
+
+**周易六十四卦、卦变与象数义理如何系统学习？**
+
+整理王弼本《周易》经传、六十四卦详解、卦变关系与象数义理内容。适合经典阅读、易学概念检索与关联学习。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M12YMV1144F4RZMX1HBK8GQ0.html)
+
+### 知识图谱与本体建模：RAG、GraphRAG和AI Agent知识库
+
+**本体建模、RAG、GraphRAG与Agent工程如何关联？**
+
+以本体论与知识建模为主线，整理知识表示、Palantir Foundry / AIP、RAG、GraphRAG及AI Agent工程相关材料。包含概念条目和方法架构对比，适合知识工程学习与方案研究。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M13QT669Q6E94PWACEH00YJF.html)
+
+### 工程图纸数据提取：DWG、DXF解析与AI识别知识库
+
+**CAD图纸里的图元、图层与标注如何转成业务数据？**
+
+覆盖DWG/DXF解析、图元图层块标注识别、构件与门窗表数据组织，以及图纸管理和AI应用。适合工程图纸数字化学习与方案设计；这是知识资料，不是可直接执行的CAD转换软件。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M35QEB3RMK46SGCQ6WSZ3GZR.html)
+
+### PCB制造流程与MES柔性制造知识图谱
+
+**PCB打样怎样连接CAM、拼单排产与MES？**
+
+梳理在线下单、CAM、拼单排产、自动化产线、MES与AGV等环节，讨论黑灯工厂的边界及工程决策。适合PCB数字化工厂和柔性制造方案研究，不替代实际设备接口与调度实现。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M3VX66XMG5NHQ5HP9TK0Q2DC.html)
+
+### 高中数学知识点整理：人教A版五册知识图谱
+
+**高中数学函数、导数和其他章节的知识点怎样串联？**
+
+覆盖人教A版高中数学五册，整理200个概念页与27组知识对比，关联函数、导数、三角函数、数列、几何及概率统计。适合系统复习、查漏补缺与教师备课。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M4PZPNGWR1YZ1W9GGVTJG82N.html)
+
+### 法考刑法考点与主观题观点训练知识图谱
+
+**法考刑法考点、法条与主观题案例如何对照复习？**
+
+整理总则48个、分则83个考点，并关联法条、司法解释、真题案例与观点展示训练。适合建立复习清单、定位考点与练习论证表达；适用法规和考试要求需核对当年官方文件。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M2QAYVBMH2YCF68BEA393BY4.html)
+
+### 广东高考志愿填报：高校与专业对比知识库
+
+**广东高考选学校、选专业时，如何整理比较资料？**
+
+关联高校、学院、专业、课程、学科与培养方向，适合学生、家长及教育研究者组织学校专业资料。侧重信息整理与对比，不承诺提供实时录取分数线或录取预测。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M2DFJ9E66FARK5SEBMPT92K0.html)
+
+### 伤寒论、金匮要略与温病辨证知识图谱
+
+**中医经典学习如何关联六经辨证、病证与经方？**
+
+围绕《伤寒论》《金匮要略》《灵枢经》及温病相关文献，组织条文、辨证理论、方剂与医家观点。适合经典研读与学习笔记整理，不作为个人诊疗建议。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M112AA9MV91T3FJD5Z2GSPY8.html)
+
+### 妇产超声学习：胎儿异常征象与鉴别知识图谱
+
+**妇产超声学习怎样整理疾病、影像征象与鉴别要点？**
+
+依据资源页所列Callen《妇产超声学》第6版等资料，按疾病、超声表现、鉴别与检查规范组织内容。适合专业文献学习与病例复盘资料整理，不替代临床判断。
+
+[查看内容目录与资源详情](https://molio.cn/resource/01M1152PE8YE365S9ZXDMNYCW6.html)
 
 ## 如何理解知识图谱与 Obsidian 双链笔记
 
@@ -75,6 +237,8 @@ Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workfl
 例如，读历史时，可以从人物条目进入相关事件，沿内部链接追踪人物、政权与制度的联系，再回到原文出处核对判断。知识图谱组织这些关联，双链笔记提供浏览路径。
 
 参考 Obsidian 官方说明：[内部链接](https://help.obsidian.md/links)、[关系图谱](https://help.obsidian.md/plugins/graph)。
+
+<a id="import-guide"></a>
 
 ## 如何导入 Obsidian 或 Molio
 
@@ -96,9 +260,9 @@ Maintained by Molio. A Markdown knowledge-resource directory for Obsidian workfl
 
 ## 常见问题
 
-**这里能直接下载全部知识库吗？**
+**Obsidian 中文知识库资源在哪里获取？**
 
-不能。本仓库是公开索引，完整资源从各自官网详情页获取。
+本仓库按主题索引 Markdown 知识库。选择资源后，从对应官网详情页查看内容目录、预览和获取方式，再按导入指南打开文件夹。
 
 **资源必须配合 Molio 才能使用吗？**
 
